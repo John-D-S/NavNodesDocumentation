@@ -1,0 +1,110 @@
+\hypertarget{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent}{}\doxysection{Nav\+Nodes\+Framework.\+Core.\+Nav\+Grid\+Agent Class Reference}
+\label{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent}\index{NavNodesFramework.Core.NavGridAgent@{NavNodesFramework.Core.NavGridAgent}}
+Inheritance diagram for Nav\+Nodes\+Framework.\+Core.\+Nav\+Grid\+Agent\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_aff231c5bbe0dcfd62e2852032a8ca1f2}\label{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_aff231c5bbe0dcfd62e2852032a8ca1f2}} 
+\mbox{\hyperlink{class_nav_nodes_framework_1_1_core_1_1_nav_grid_node}{Nav\+Grid\+Node}} {\bfseries Next\+Node\+Toward\+Target} (\mbox{\hyperlink{class_nav_nodes_framework_1_1_core_1_1_nav_grid_node}{Nav\+Grid\+Node}} \+\_\+target, bool \+\_\+account\+For\+Blocks=false)
+\begin{DoxyCompactList}\small\item\em returns the first node in the path towards the target \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_nav_nodes_framework_1_1_core_1_1_nav_grid_node}{Nav\+Grid\+Node}} $>$ \mbox{\hyperlink{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_a99af8dc21fc25789331d439eb984e985}{Calculate\+Path\+To\+Target}} (\mbox{\hyperlink{class_nav_nodes_framework_1_1_core_1_1_nav_grid_node}{Nav\+Grid\+Node}} \+\_\+start, \mbox{\hyperlink{class_nav_nodes_framework_1_1_core_1_1_nav_grid_node}{Nav\+Grid\+Node}} \+\_\+target, bool \+\_\+account\+For\+Blocks=false)
+\begin{DoxyCompactList}\small\item\em Calculates and returns the list of Nav\+Grid\+Nodes which lead from the start to the target. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_a9399ee3f1876580b3f50cfb87c0a0d01}\label{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_a9399ee3f1876580b3f50cfb87c0a0d01}} 
+void {\bfseries Move\+Towards} (\mbox{\hyperlink{class_nav_nodes_framework_1_1_core_1_1_nav_grid_node}{Nav\+Grid\+Node}} \+\_\+target, bool \+\_\+account\+For\+Blocks=false)
+\begin{DoxyCompactList}\small\item\em move the agent one block towards the target \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_affd0d504d154952f03ae00a09188ff13}\label{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_affd0d504d154952f03ae00a09188ff13}} 
+void {\bfseries Move\+To\+Target} (\mbox{\hyperlink{class_nav_nodes_framework_1_1_core_1_1_nav_grid_node}{Nav\+Grid\+Node}} \+\_\+target, bool \+\_\+account\+For\+Blocks=false)
+\begin{DoxyCompactList}\small\item\em step the agent all the way to the given target. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_a564fcd0ca321cb1bde2c1e8a073ecb21}\label{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_a564fcd0ca321cb1bde2c1e8a073ecb21}} 
+void {\bfseries Move\+To\+Target} (\mbox{\hyperlink{class_nav_nodes_framework_1_1_core_1_1_nav_grid_node}{Nav\+Grid\+Node}} \+\_\+target, int \+\_\+max\+Tiles\+To\+Move, bool \+\_\+account\+For\+Blocks=false)
+\begin{DoxyCompactList}\small\item\em step the agent along to the given target for \+\_\+max\+Tiles\+To\+Move blocks \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_adf64a7a0c20c0115138ad9b5a1d7b7ef}\label{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_adf64a7a0c20c0115138ad9b5a1d7b7ef}} 
+void {\bfseries Move\+To\+Target} (Game\+Object \+\_\+target, bool \+\_\+account\+For\+Blocks=false)
+\begin{DoxyCompactList}\small\item\em step the agent all the way to node closest to the \+\_\+target Game\+Object. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_a9119077e3683e10abf94bd9ed519a834}\label{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_a9119077e3683e10abf94bd9ed519a834}} 
+void {\bfseries Move\+To\+Target} (Game\+Object \+\_\+target, int \+\_\+max\+Tiles\+To\+Move, bool \+\_\+account\+For\+Blocks=false)
+\begin{DoxyCompactList}\small\item\em step the agent along the path to the given \+\_\+target Game\+Object for \+\_\+max\+Tiles\+To\+Move blocks \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_ae34bb23de3cb5921af3d6283ad2cac0e}\label{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_ae34bb23de3cb5921af3d6283ad2cac0e}} 
+void {\bfseries Move\+To\+Target} (Vector3 \+\_\+target, bool \+\_\+account\+For\+Blocks=false)
+\begin{DoxyCompactList}\small\item\em Step the agent towards the closest node to the given \+\_\+target position \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_a73211737bd4bdd2fecbf420dc59f223c}{Move\+To\+Target}} (Vector3 \+\_\+target, int \+\_\+max\+Tiles\+To\+Move, bool \+\_\+account\+For\+Blocks=false)
+\begin{DoxyCompactList}\small\item\em move the agent along the path to the closest node to the given \+\_\+target position for \+\_\+max\+Tiles\+To\+Move nodes \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_a6b4a15237c5162926305531747f12037}\label{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_a6b4a15237c5162926305531747f12037}} 
+int {\bfseries Number\+Of\+Nodes\+To\+Target} (\mbox{\hyperlink{class_nav_nodes_framework_1_1_core_1_1_nav_grid_node}{Nav\+Grid\+Node}} \+\_\+target, bool \+\_\+account\+For\+Blocks=false)
+\begin{DoxyCompactList}\small\item\em returns the number of nodes to the given navgrid node \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_a21eaef0404b6eb118a9ef06499e90c16}\label{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_a21eaef0404b6eb118a9ef06499e90c16}} 
+int {\bfseries Number\+Of\+Nodes\+To\+Target} (Game\+Object \+\_\+target, bool \+\_\+account\+For\+Blocks=false)
+\begin{DoxyCompactList}\small\item\em returns the number of nodes to the node closest to the \+\_\+target gameobject \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_a206e7780ca4cff955c5cf808078d62a3}\label{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_a206e7780ca4cff955c5cf808078d62a3}} 
+int {\bfseries Number\+Of\+Nodes\+To\+Target} (Vector3 \+\_\+target, bool \+\_\+account\+For\+Blocks=false)
+\begin{DoxyCompactList}\small\item\em returns the number of nodes to the node closest to the \+\_\+target position \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_aadf0b3067bc812f59f94a2129a32e9ed}\label{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_aadf0b3067bc812f59f94a2129a32e9ed}} 
+float {\bfseries walk\+Speed} = .\+25f
+\item 
+\mbox{\Hypertarget{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_a62470a26d9cffa5cb2363e9aed988644}\label{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_a62470a26d9cffa5cb2363e9aed988644}} 
+float {\bfseries lerp\+Amount} = .\+25f
+\item 
+\mbox{\Hypertarget{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_acd90664f54d49d37f1424d5026e527e6}\label{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_acd90664f54d49d37f1424d5026e527e6}} 
+bool {\bfseries turn\+In\+Direction\+Of\+Travel}
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_ab14cf343eb162c97d5c0e9c24a90fdad}\label{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_ab14cf343eb162c97d5c0e9c24a90fdad}} 
+\mbox{\hyperlink{class_nav_nodes_framework_1_1_core_1_1_nav_grid}{Nav\+Grid}} {\bfseries Agent\+Nav\+Grid}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_aa549bf6477a5c7a39d4d6a5fdba14d9b}\label{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_aa549bf6477a5c7a39d4d6a5fdba14d9b}} 
+\mbox{\hyperlink{class_nav_nodes_framework_1_1_core_1_1_nav_grid_node}{Nav\+Grid\+Node}} {\bfseries Current\+Node}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_a99af8dc21fc25789331d439eb984e985}\label{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_a99af8dc21fc25789331d439eb984e985}} 
+\index{NavNodesFramework.Core.NavGridAgent@{NavNodesFramework.Core.NavGridAgent}!CalculatePathToTarget@{CalculatePathToTarget}}
+\index{CalculatePathToTarget@{CalculatePathToTarget}!NavNodesFramework.Core.NavGridAgent@{NavNodesFramework.Core.NavGridAgent}}
+\doxysubsubsection{\texorpdfstring{CalculatePathToTarget()}{CalculatePathToTarget()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_nav_nodes_framework_1_1_core_1_1_nav_grid_node}{Nav\+Grid\+Node}} $>$ Nav\+Nodes\+Framework.\+Core.\+Nav\+Grid\+Agent.\+Calculate\+Path\+To\+Target (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_nav_nodes_framework_1_1_core_1_1_nav_grid_node}{Nav\+Grid\+Node}}}]{\+\_\+start,  }\item[{\mbox{\hyperlink{class_nav_nodes_framework_1_1_core_1_1_nav_grid_node}{Nav\+Grid\+Node}}}]{\+\_\+target,  }\item[{bool}]{\+\_\+account\+For\+Blocks = {\ttfamily false} }\end{DoxyParamCaption})}
+
+
+
+Calculates and returns the list of Nav\+Grid\+Nodes which lead from the start to the target. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+start} & The node to start the path from (not Included in the returned path).\\
+\hline
+{\em \+\_\+target} & The node for the path to reach.\\
+\hline
+{\em \+\_\+account\+For\+Blocks} & if true, the path will not go through blocked nodes\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_a73211737bd4bdd2fecbf420dc59f223c}\label{class_nav_nodes_framework_1_1_core_1_1_nav_grid_agent_a73211737bd4bdd2fecbf420dc59f223c}} 
+\index{NavNodesFramework.Core.NavGridAgent@{NavNodesFramework.Core.NavGridAgent}!MoveToTarget@{MoveToTarget}}
+\index{MoveToTarget@{MoveToTarget}!NavNodesFramework.Core.NavGridAgent@{NavNodesFramework.Core.NavGridAgent}}
+\doxysubsubsection{\texorpdfstring{MoveToTarget()}{MoveToTarget()}}
+{\footnotesize\ttfamily void Nav\+Nodes\+Framework.\+Core.\+Nav\+Grid\+Agent.\+Move\+To\+Target (\begin{DoxyParamCaption}\item[{Vector3}]{\+\_\+target,  }\item[{int}]{\+\_\+max\+Tiles\+To\+Move,  }\item[{bool}]{\+\_\+account\+For\+Blocks = {\ttfamily false} }\end{DoxyParamCaption})}
+
+
+
+move the agent along the path to the closest node to the given \+\_\+target position for \+\_\+max\+Tiles\+To\+Move nodes 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+target} & \\
+\hline
+{\em \+\_\+max\+Tiles\+To\+Move} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Git\+Hub/\+Nav\+Nodes/\+Assets/\+Nav\+Nodes\+Framework/\+Core/Nav\+Grid\+Agent.\+cs\end{DoxyCompactItemize}
